@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title> New Form Elements [ Output ]</title>
+    <link rel="stylesheet" href="assets/css/video-16.css"/>
+    <script src="File.js"></script>
+    <!--[ if lt IE 9 ]>
+      <script src="html5shiv.min.js"></script>
+    <![ endif ]-->
+
+</head>
+<body>
+<!--  start Header -->
+<header class="main">
+    <h1> html5 Course </h1>
+</header>
+<!--  End Header  -->
+
+
+<!--  Start Navigation -->
+<nav>
+    <ul>
+        <li> Home</li>
+        <li> About</li>
+        <li> service</li>
+        <li> Contact Us</li>
+    </ul>
+</nav>
+<!--   End Navigation  -->
+
+
+<!--   Start Main Content -->
+
+<main>
+
+
+    <p> Welcome To Our <samp> <mark>Html5</mark>Course </samp> From ElZero Web School </p>
+
+
+</main>
+
+<!--   End Main Content -->
+
+
+<!--   Start Articles  -->
+
+<div class="post">
+
+    <article>
+        <header>
+            <h3> Our New Framework Milestone </h3>
+            <P> Created By <span> Osama </span>
+                On <time datetime="2014-10-25 - 16:20:33">Oct, 25th, 2014 </time>
+            </P>
+        </header>
+
+        <section>
+            <p> This Is Article Content Number #01 </p>
+            <div>
+
+                Design :
+                <progress value="7" max="10"></progress>
+                <hr>
+
+                Coding :
+                <progress value="65" max="100"></progress>
+            </div>
+        </section>
+
+    </article>
+
+
+    <br>
+    <article>
+
+        <header>
+            <h3> Article About Using &lt;details&gt; </h3>
+            <P> Created By <span> Osama </span> On <span> 25/10/2014 </span></P>
+        </header>
+
+        <section>
+            <p> This Is Article Content Number #02 </p>
+
+            <p>
+            <details>
+                <summary> References</summary>
+                <ul>
+                    <li> Ref 1</li>
+                    <li> Ref 2</li>
+                    <li> Ref 3</li>
+                </ul>
+            </details>
+            </p>
+
+        </section>
+
+    </article>
+
+    <br>
+
+    <article>
+
+        <header>
+            <h3> Article About Using &lt;Wbr&gt; </h3>
+            <P> Created By <span> Osama </span> On <span> 25/10/2014 </span></P>
+        </header>
+
+        <section>
+
+            <p> This Is Article Content Number #03 </p>
+
+            <div class="long-link">
+                https://
+                <wbr>
+                www.testinglonglink.com </wbr>
+                <wbr>
+                /products.php?id=200 </wbr>
+                <wbr>
+                &cat=100
+                </wbr>
+                <wbr>
+                &teast=mainsection </wbr>
+
+
+            </div>
+
+        </section>
+
+
+    </article>
+
+
+    <br>
+    <article>
+
+        <header>
+            <h3> Article About Using Code Inside &lt;figure&gt; </h3>
+            <P> Created By <span> Osama </span> On <span> 25/10/2014 </span></P>
+        </header>
+
+        <section>
+
+            <p> This Code Describe The Div Syntax </p>
+            <figure>
+                <figcaption> This Div Syntax 1-3 </figcaption>
+                <code>
+                    &lt;div&gt; This Is NOral Syntax for Div &lt;/Div&gt;
+                </code>
+            </figure>
+        </section>
+
+    </article>
+
+    <article>
+
+        <br>
+
+        <header>
+            <h3> Article About Using Image Inside &lt;figure&gt; </h3>
+            <P> Created By <span> Osama </span> On <span> 25/10/2014 </span></P>
+        </header>
+
+        <section>
+            <p> This Code Describe The Image Inside figure </p>
+            <dialog open> This Is Dialog From Html5 </dialog>
+            <figure class="img-figure">
+                <img src="assets/img/facebook-icon/128px.png" />
+                <img src="assets/img/facebook-icon/128px.png" />
+                <img src="assets/img/facebook-icon/128px.png" />
+                <img src="assets/img/facebook-icon/128px.png" />
+                <figcaption> Three Images Contain Cats See The Full list <a href="#">Here</a> </figcaption>
+            </figure>
+        </section>
+
+    </article>
+
+
+
+    <!--   End   Articles  -->
+</div>
+<aside>
+    <section class="links">
+
+        <h3> Categories </h3>
+        <ul>
+            <li> Intro</li>
+            <li> Semantics</li>
+            <li> Api</li>
+            <li> New Attributes</li>
+            <li> Multimedia Elements</li>
+        </ul>
+    </section>
+
+
+    <section class="meters">
+        <h3> performance </h3>
+
+        <div>
+
+            Cpu :
+            <meter
+                    min="0"
+                    max="1"
+                    value="0.5"
+                    low="0.4"
+                    high="0.8"
+                    optimum="0.5">
+
+            </meter>
+
+        </div>
+
+
+    </section>
+
+    <br>
+
+    <section class="top-member">
+
+        <h3> Top Members</h3>
+        <ul>
+
+
+            <li> Osama : 90  point </li>
+            <li> Ahmed : 120 point </li>
+            <li> Sayed : 50  point  </li>
+            <li> <bdi> علي </bdi> : 80 point  </li>
+
+        </ul>
+    </section>
+
+    <section class="poll">
+
+        <h3> whats Your Best Browser? </h3>
+        <form>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+                <option value="Same">
+                <option value="Opera">
+                <option value="Opacity">
+                <option value="Internet Explorer">
+            </datalist>
+            <input type="submit" value="choose">
+        </form>
+
+    </section>
+
+    <section class="calculate-age">
+
+        <h3> calculate Your Age In Days </h3>
+        <form oninput="result.value = parseInt ( age.value ) * parseInt(days.value) +' Days ' ">
+            <input type="text" name="age" >
+            <input type="hidden" name="days" value="365">
+            <output name="result"></output>
+
+        </form>
+
+
+    </section>
+</aside>
+
+
+<!-- Start  Sidebar  -->
+
+
+<!-- End   Sidebar  -->
+
+
+<div class="clearfix">
+
+
+</div>
+
+<!-- Start Footer  -->
+
+<footer>
+    Copyright 2015 &copy; All Right Reserved
+</footer>
+
+<!-- End Footer  -->
+
+
+</body>
+</html>
