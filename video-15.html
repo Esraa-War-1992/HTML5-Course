@@ -2,8 +2,8 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title> New Form Elements [ Datalist ]</title>
-    <link rel="stylesheet" href="assets/css/video-14.css"/>
+    <title> New Form Elements [ Output ]</title>
+    <link rel="stylesheet" href="assets/css/video-15.css"/>
     <script src="File.js"></script>
     <!--[ if lt IE 9 ]>
       <script src="html5shiv.min.js"></script>
@@ -247,6 +247,17 @@
             <input type="submit" value="choose">
         </form>
 
+    </section>
+
+    <section class="calculate-age">
+
+        <h3> calculate Your Age In Days </h3>
+        <form oninput="result.value = parseInt ( age.value ) * parseInt(days.value) +' Days ' ">
+            <input type="text" name="age" >
+            <input type="hidden" name="days" value="365">
+            <output name="result"></output>
+
+        </form>
 
 
     </section>
