@@ -283,13 +283,20 @@
 
         <section>
             <p> New Form Attributes </p>
-            <form action="app/process.html" method="get" enctype="multipart/form-data" novalidate>
+            <form id="main-form" class="html5" action="app/process.html"
+                  method="get" enctype="multipart/form-data" novalidate>
+                <label> Username </label>
                 <input type="text" name="username" autofocus="on">
+                <label> Email </label>
                 <input type="email" name="mail" autocomplete="off">
                 <input type="submit" value="Default Submit">
                 <input type="submit" formaction="other.html" formmethod="post" value="Other Submit">
+                <input type="submit" formnovalidate value="Submit Without Validation">
+                <input type="submit"  formnovalidate formtarget="_blank" value="Submit In New Window">
 
             </form>
+            <label> Nickname </label>
+            <input type="text" name="nickname" form="main-form">
 
         </section>
     </article>
