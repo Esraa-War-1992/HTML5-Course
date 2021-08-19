@@ -285,10 +285,10 @@
             <p> New Form Attributes </p>
             <form id="main-form" class="html5" action="app/process.html"
                   method="get" enctype="multipart/form-data">
-                <label> Username </label>
-                <input type="text" name="username" autofocus="on">
+                <input type="text" name="username" autofocus="on" placeholder="Type Your Username">
                 <label> Email </label>
-                <input type="email" name="mail" autocomplete="off">
+                <input type="email" name="mail" autocomplete="off" multiple>
+                <input type="file" multiple>
                 <input type="submit" value="Default Submit">
                 <input type="submit" formaction="other.html" formmethod="post" value="Other Submit">
                 <input type="submit" formnovalidate value="Submit Without Validation">
@@ -296,7 +296,7 @@
 
             </form>
             <label> Nickname </label>
-            <input type="text" name="nickname" form="main-form">
+            <input type="text" name="nickname" form="main-form" required>
 
         </section>
     </article>
