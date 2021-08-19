@@ -289,6 +289,10 @@
                 <label> Email </label>
                 <input type="email" name="mail" autocomplete="off" multiple>
                 <input type="file" multiple>
+                <label> Number </label>
+                <input type="number" name="number" min="0" max="100" step="10">
+                <label> pattern </label>
+                <input type="text" pattern="[A_Za_Z] { 6 }">
                 <input type="submit" value="Default Submit">
                 <input type="submit" formaction="other.html" formmethod="post" value="Other Submit">
                 <input type="submit" formnovalidate value="Submit Without Validation">
