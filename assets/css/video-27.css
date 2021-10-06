@@ -1,0 +1,12 @@
+/* Start Canvas */
+
+Canvas {
+    width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+
+/* End Canvas */
