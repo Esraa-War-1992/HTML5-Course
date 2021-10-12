@@ -1,5 +1,5 @@
- Var myCanvas = document.getElementById('c');
+ var myCanvas = document.getElementById('c');
 
 
 
-   myContext = myCanvas.getContext('2d')
+   myContext = myCanvas.getContext('2d');
