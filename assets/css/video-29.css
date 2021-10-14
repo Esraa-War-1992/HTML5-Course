@@ -1,0 +1,9 @@
+/* Start Canvas */
+
+Canvas {
+    margin: 50px auto;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+/* End Canvas */
