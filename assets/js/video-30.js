@@ -35,3 +35,7 @@ myContext.fillText('O', 120, 150);
 myContext.fillStyle = '#FF0';
 myContext.strokeStyle = 'yellow';
 myContext.strokeText('School', 150, 200);
+
+
+
+
