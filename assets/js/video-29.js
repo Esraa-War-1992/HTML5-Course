@@ -1,6 +1,6 @@
  var myCanvas = document.getElementById('c');
 
-    myContext = myCanvas.getContext('2d'),
+    myContext = myCanvas.getContext('2d');
 
        myCanvaswidth = myCanvas.width;
 
