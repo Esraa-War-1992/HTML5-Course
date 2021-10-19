@@ -26,8 +26,8 @@
 
 // Fill And Style option
 
-    myContext.fillStyle ='#F00' ;
-      myContext.strokeStyle = '#00F';
+    myContext.fillStyle ='#080' ;
+      myContext.strokeStyle = '#DDD';
         myContext.lineWidth = 4 ;
           myContext.font = '60px Arial';
 
@@ -38,7 +38,7 @@
 
 // Add The second Text
 
-  myContext.strokeStyle = '#080';
+  myContext.strokeStyle = '#000';
      myContext.lineWidth = 2 ;
        myContext.strokeText('ELZero Web School', 50 , 80);
 
