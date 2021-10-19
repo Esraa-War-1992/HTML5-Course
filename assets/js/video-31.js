@@ -41,4 +41,3 @@
   myContext.strokeStyle = '#000';
      myContext.lineWidth = 2 ;
        myContext.strokeText('ELZero Web School', 50 , 80);
-
