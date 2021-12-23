@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> form part 2 Button, File, lmage, Hidden, Reset, Radio</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script>
+        function sayHello() {
+            alert("Hello Html");
+        }
+    </script>
+    <style>
+
+    </style>
+</head>
+<body>
+<form name="register">
+
+    <label> Username </label>
+    <input type="text" name="username" value="" placeholder="type your Name" maxlength="10">
+    <br>
+
+    <label> password </label>
+    <input type="password" name="password">
+    <br>
+
+    <label> Upload Your cv </label>
+    <input type="file">
+    <br>
+
+    <input type="checkbox">
+    <label> Remember me </label>
+    <br>
+    <br>
+
+    <label> Choose Your Browser </label> <br>
+
+    <input type="radio" name="browser" value="iphone"> iphone <br>
+    <input type="radio" name="browser" value="samsung"> samsung <br>
+    <input type="radio" name="browser" value="Nokia"> Nokia <br>
+    <br>
+
+    <label> Choose Your mobile </label> <br>
+
+    <input type="radio" name="Mobile" value="Chrome"> Google Chrome <br>
+    <input type="radio" name="Mobile" value="Firefox"> Mozilla Firefox <br>
+    <input type="radio" name="Mobile" value="Opera"> Opera <br>
+
+    <input type="hidden" value="testing">
+    <input type="button" name="say Hello" value="say Hello" onclick="sayHello()">
+    <input type="submit" value="signup ">
+    <input type="reset" value="Restore Default">
+    <input type="image" src="http://placehold.it/100/100" alt="submit">
+</form>
+
+
+</body>
+</html>

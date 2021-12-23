@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<Html>
+<Head>
+    <meta CHARSET="UTF"-8>
+    <meta name="description" content="Html for Beginners">
+    <title> Create A Nice form </title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script></script>
+    <style>
+
+        body {background:#EFEFEF;font-family:Arial,Tahoma,serif}
+
+        fieldset
+
+        {
+            background:#FFF;
+            border:1px solid #ccc;
+            padding:20px;
+            width:500px;
+            margin:20px auto;
+        }
+        legend
+
+        {
+            background: #ffffff;
+            border:1px solid #ccc;
+            padding:10px;
+        }
+
+        label {margin-bottom:10px;display:block}
+        input {margin-bottom:10px}
+
+        input[type="text"],
+        input[type="password"],
+        textarea
+
+        {
+            padding:8px;
+            width:300px;
+            display:block
+        }
+        hr {border:1px solid #EEE}
+
+        textarea
+        {
+            height:200px;
+            margin-bottom:10px;
+        }
+    </style>
+</Head>
+<body>
+<form name="register">
+    <fieldset>
+       <legend> Personal lnforamtion </legend>
+        <label> username </label>
+        <input type="text" name="username">
+        <label> password </label>
+        <input type="password" name="password">
+        <label> E-mail </label>
+        <input type="text" name="email">
+        <label> Gender </label>
+        <select name="gender">
+            <option value="Male"> Male </option>
+            <option value="Female"> female </option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend> your favourites </legend>
+        <label> your favourite Text Editor </label><br>
+        <input type="radio" name="editor"> komodoEdit<br>
+        <input type="radio" name="editor"> Netbeans<br>
+        <input type="radio" name="editor"> SublimeText
+        <hr>
+        <label> your favourite Browser </label><br>
+        <input type="radio" name="Browser"> Google chrome <br>
+        <input type="radio" name="Browser"> mozilla firfox <br>
+        <input type="radio" name="Browser"> opera
+        <hr>
+        <label> your favourite operating system </label><br>
+        <input type="checkbox"> Mac osx <br>
+        <input type="checkbox"> linux <br>
+        <input type="checkbox"> windows
+    </fieldset>
+    <fieldset>
+        <legend> Your Message </legend>
+        <textarea></textarea>
+        <input type="submit" value="send Your Data">
+    </fieldset>
+</form>
+</body>
+</Html>
